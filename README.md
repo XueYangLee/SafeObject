@@ -1,7 +1,7 @@
 # SafeObject
-#####利用方法替换实现统一处理数组越界、字符串下标越界及字典赋值为空时造成的崩溃问题
+##### 利用方法替换实现统一处理数组越界、字符串下标越界及字典赋值为空时造成的崩溃问题
 
-####方法使用
+#### 方法使用
 将`SafeObject`文件夹拖入工程即可
 
 
@@ -33,7 +33,7 @@ NSMutableDictionary *muDic=[NSMutableDictionary dictionaryWithDictionary:dic];
 NSLog(@"%@>>字典移除或添加的的key或object为nil>",muDic);
 ```
 
-####涉及处理的方法
+#### 涉及处理的方法
 + NSArray/NSMutableArray
     * objectAtIndex
     * removeObjectsInRange
